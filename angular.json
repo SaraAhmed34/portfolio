@@ -100,4 +100,10 @@
                 "input": "src/assets",
                 "output": "assets"
               }
-            ],
+            ]
+          }
+        }
+      }
+    }
+  }
+}
