@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "Frontend Developer - Angular",
+    "hi": "Hi, I'm",
+    "name": "Sara Ahmed",
+    "tagline": "Building scalable and user-friendly web applications.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "headline": "Passionate About Crafting Great Interfaces",
+    "text": "I'm a frontend developer who specializes in Angular, focused on building high-performance, scalable web applications. I write clean, maintainable code and love turning complex requirements into elegant user experiences.",
+    "features": {
+      "performance": {
+        "title": "Performance-First",
+        "description": "Focusing on fast loading, smooth interactions, and optimized delivery."
+      },
+      "integration": {
+        "title": "API Integration",
+        "description": "Building clean client-side interfaces with reusable data flows."
+      },
+      "expertise": {
+        "title": "Angular Expertise",
+        "description": "Strong experience with Angular, RxJS, and modern frontend architecture."
+      },
+      "cleanCode": {
+        "title": "Clean Code",
+        "description": "Writing maintainable, testable, and well-structured applications."
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "headline": "Tech Stack and Tools",
+    "description": "I specialize in developing dynamic and maintainable applications using modern frontend technologies. I have hands-on experience with component-based architecture, state management, and building responsive UI systems. I focus on writing clean, scalable code and collaborating effectively within teams using Git and best development practices.",
+    "cards": {
+      "frontend": {
+        "title": "Frontend",
+        "angular": "Angular (Standalone Components, Routing, Guards, Lazy Loading)",
+        "typescript": "TypeScript",
+        "javascript": "JavaScript (ES6+)",
+        "htmlcss": "HTML5 / CSS3"
+      },
+      "ui": {
+        "title": "UI & Styling",
+        "bootstrap": "Bootstrap",
+        "tailwind": "Tailwind CSS",
+        "flowbite": "Flowbite",
+        "responsive": "Responsive Design",
+        "grid": "CSS Grid / Flexbox"
+      },
+      "state": {
+        "title": "State Management",
+        "ngrx": "NgRx (Store, Effects, Actions)"
+      },
+      "architecture": {
+        "title": "Architecture & Advanced",
+        "nx": "Nx Workspace",
+        "microfrontend": "Micro Frontend Architecture",
+        "modular": "Modular Architecture",
+        "rest": "REST API Integration"
+      },
+      "tools": {
+        "title": "Tools & Others",
+        "git": "Git & GitHub",
+        "postman": "Postman",
+        "vscode": "VS Code",
+        "agile": "Agile Basics"
+      },
+      "engineering": {
+        "title": "Frontend Engineering",
+        "componentBased": "Component-based architecture",
+        "stateManagement": "State management",
+        "responsiveUi": "Responsive UI systems",
+        "cleanCode": "Clean, scalable code"
+      }
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "headline": "Learning Journey and Professional Growth",
+    "items": {
+      "devTrack": {
+        "title": "Front-End Developer – Elevate Academy",
+        "org": "Hybrid, Egypt",
+        "summary": "Developed scalable Angular applications following Clean Architecture and SOLID principles.",
+        "highlights": {
+          "1": "Implemented advanced state management using NgRx and Angular Signals.",
+          "2": "Integrated RESTful APIs and built secure authentication systems using Route Guards.",
+          "3": "Designed responsive and modern user interfaces using Tailwind CSS and PrimeNG.",
+          "4": "Applied Lazy Loading and performance optimization techniques to enhance application efficiency.",
+          "5": "Wrote unit tests to ensure application reliability and maintainability.",
+          "6": "Collaborated in an Agile/Scrum environment using GitHub and Jira."
+        }
+      },
+      "freelancePractice": {
+        "title": "Frontend Developer (Angular)",
+        "org": "ReNile",
+        "summary": "Developed responsive and user-friendly interfaces using Angular.",
+        "highlights": {
+          "1": "Built reusable and dynamic components following component-based architecture.",
+          "2": "Integrated applications with RESTful APIs and handled asynchronous data efficiently.",
+          "3": "Collaborated with backend developers to ensure smooth integration.",
+          "4": "Applied TypeScript and Angular best practices to write clean and maintainable code."
+        }
+      },
+      "specialization": {
+        "title": "Online Programming Instructor",
+        "org": "Zaki Platform",
+        "summary": "Delivered interactive programming sessions for children, focusing on coding fundamentals.",
+        "highlights": {
+          "1": "Taught visual programming using python and introduced basic JavaScript concepts.",
+          "2": "Designed engaging learning materials to simplify complex concepts.",
+          "3": "Helped students improve logical thinking and problem-solving skills."
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "headline": "Selected Angular Work",
+    "items": {
+      "adminDashboard": {
+        "title": "Roze App",
+"description": "A scalable web application with two main modules: a customer-facing interface and an admin dashboard. The customer side focuses on responsive design and smooth user interactions, while the admin panel features data visualization, advanced filtering, role-based access control, and efficient data management."
+      },
+      "taskPlatform": {
+        "title": "Place Recommendation System",
+        "description": "A smart place recommendation system that relies on analyzing user preferences and behavior to provide personalized suggestions. It offers an interactive user interface for displaying places with search and filtering capabilities, along with a management system that allows control over data and improves recommendation accuracy."
+      },
+      "travelBooking": {
+        "title": "E-commerce Platform",
+        "description": "e-commerce platform with SSR to improve initial load time and SEO, featuring secure authentication, a responsive UI, and a fully managed cart system."
+      }
+    },
+    "liveDemo": "Live Demo",
+    "githubRepo": "GitHub Repo"
+  },
+  "contact": {
+    "title": "Contact",
+    "headline": "Let us work together",
+    "connectTitle": "Connect With Me",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "sendMessage": "Send Message",
+    "downloadCv": "Download CV"
+  },
+  "footer": {
+    "connect": "Let us connect"
+  }
+}

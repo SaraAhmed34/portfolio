@@ -1,0 +1,53 @@
+@use 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap');
+
+@theme {
+  --font-sans: 'Inter', 'Cairo', sans-serif;
+  --font-heading: 'Sora', 'Cairo', sans-serif;
+  --font-ar: 'Cairo', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  scroll-behavior: smooth;
+  background: radial-gradient(circle at 0 0, #1e293b, #020617 45%);
+  font-family: var(--font-sans);
+}
+
+.app-shell {
+  font-family: var(--font-sans);
+}
+
+.app-shell.rtl,
+.app-shell.rtl body {
+  font-family: var(--font-ar);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+}
+
+.app-shell.rtl h1,
+.app-shell.rtl h2,
+.app-shell.rtl h3 {
+  font-family: var(--font-ar);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out both;
+}

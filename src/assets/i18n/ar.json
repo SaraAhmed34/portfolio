@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من أنا",
+    "skills": "المهارات",
+    "experience": "الخبرات",
+    "projects": "المشاريع",
+    "contact": "تواصل"
+  },
+  "hero": {
+    "role": "مطورة واجهات أمامية - Angular",
+    "hi": "مرحبًا، أنا",
+    "name": "سارة أحمد",
+    "tagline": "أبني تطبيقات ويب قابلة للتوسع وسهلة الاستخدام.",
+    "viewProjects": "عرض المشاريع",
+    "contactMe": "تواصل معي"
+  },
+  "about": {
+    "title": "من أنا",
+    "headline": "شغوفة بصناعة واجهات مميزة",
+    "text": "أنا مطورة واجهات أمامية متخصصة في Angular، أركز على بناء تطبيقات ويب عالية الأداء وقابلة للتوسع. أكتب كودًا نظيفًا وقابلًا للصيانة، وأحب تحويل المتطلبات المعقدة إلى تجربة استخدام أنيقة.",
+    "features": {
+      "performance": {
+        "title": "أداء متميز",
+        "description": "تركيز على سرعة التحميل وسلاسة التفاعل وتجربة مستخدم سلسة."
+      },
+      "integration": {
+        "title": "تكامل API",
+        "description": "بناء واجهات نظيفة ومترابطة مع تدفقات بيانات قابلة لإعادة الاستخدام."
+      },
+      "expertise": {
+        "title": "خبرة Angular",
+        "description": "خبرة قوية في Angular وRxJS والهندسة الحديثة للواجهة الأمامية."
+      },
+      "cleanCode": {
+        "title": "كود نظيف",
+        "description": "كتابة تطبيقات سهلة الصيانة، قابلة للاختبار ومنظمة جيدًا."
+      }
+    }
+  },
+  "skills": {
+    "title": "المهارات",
+    "headline": "التقنيات والأدوات",
+    "description": "أختص بتطوير تطبيقات ديناميكية وقابلة للصيانة باستخدام تقنيات الواجهة الأمامية الحديثة. لدي خبرة عملية في بنية المكونات، وإدارة الحالة، وبناء أنظمة واجهة مستخدم متجاوبة. أركز على كتابة كود نظيف وقابل للتوسع والتعاون بفعالية داخل الفرق باستخدام Git وأفضل ممارسات التطوير.",
+    "cards": {
+      "frontend": {
+        "title": "Frontend",
+        "angular": "Angular (Standalone Components, Routing, Guards, Lazy Loading)",
+        "typescript": "TypeScript",
+        "javascript": "JavaScript (ES6+)",
+        "htmlcss": "HTML5 / CSS3"
+      },
+      "ui": {
+        "title": "UI & Styling",
+        "bootstrap": "Bootstrap",
+        "tailwind": "Tailwind CSS",
+        "flowbite": "Flowbite",
+        "responsive": "Responsive Design",
+        "grid": "CSS Grid / Flexbox"
+      },
+      "state": {
+        "title": "State Management",
+        "ngrx": "NgRx (Store, Effects, Actions)"
+      },
+      "architecture": {
+        "title": "Architecture & Advanced",
+        "nx": "Nx Workspace",
+        "microfrontend": "Micro Frontend Architecture",
+        "modular": "Modular Architecture",
+        "rest": "REST API Integration"
+      },
+      "tools": {
+        "title": "Tools & Others",
+        "git": "Git & GitHub",
+        "postman": "Postman",
+        "vscode": "VS Code",
+        "agile": "Agile Basics"
+      },
+      "engineering": {
+        "title": "Frontend Engineering",
+        "componentBased": "Component-based architecture",
+        "stateManagement": "State management",
+        "responsiveUi": "Responsive UI systems",
+        "cleanCode": "Clean, scalable code"
+      }
+    }
+  },
+  "experience": {
+    "title": "الخبرات",
+    "headline": "رحلة التعلم والتطور المهني",
+    "items": {
+      "devTrack": {
+        "title": "مطور Front-End – Elevate Academy",
+        "org": "Hybrid، مصر",
+        "summary": "طورت تطبيقات Angular قابلة للتوسع باتباع بنية نظيفة ومبادئ SOLID.",
+        "highlights": {
+          "1": "نفذت إدارة حالة متقدمة باستخدام NgRx وAngular Signals.",
+          "2": "دمجت واجهات RESTful وبنيت أنظمة مصادقة آمنة باستخدام Route Guards.",
+          "3": "صممت واجهات مستخدم متجاوبة وحديثة باستخدام Tailwind CSS وPrimeNG.",
+          "4": "طبقت التحميل الكسول وتقنيات تحسين الأداء لتعزيز كفاءة التطبيق.",
+          "5": "كتبت اختبارات وحدات لضمان موثوقية وقابلية صيانة التطبيق.",
+          "6": "تعاونت في بيئة Agile/Scrum باستخدام GitHub وJira."
+        }
+      },
+      "freelancePractice": {
+        "title": "مطور واجهة أمامية (Angular)",
+        "org": "ReNile",
+        "summary": "طورت واجهات متجاوبة وسهلة الاستخدام باستخدام Angular.",
+        "highlights": {
+          "1": "أنشأت مكونات قابلة لإعادة الاستخدام وديناميكية باتباع بنية قائمة على المكونات.",
+          "2": "دمجت التطبيقات مع واجهات RESTful وتعاملت مع البيانات غير المتزامنة بكفاءة.",
+          "3": "تعاونت مع مطوري الواجهة الخلفية لضمان تكامل سلس.",
+          "4": "طبقت أفضل ممارسات TypeScript وAngular لكتابة كود نظيف وقابل للصيانة."
+        }
+      },
+      "specialization": {
+        "title": "مدرس برمجة عبر الإنترنت",
+        "org": "Zaki Platform",
+        "summary": "قدمت جلسات برمجة تفاعلية للأطفال، مع التركيز على أساسيات الترميز.",
+        "highlights": {
+          "1": "درّست البرمجة المرئية باستخدام Python وقدمت مفاهيم JavaScript الأساسية.",
+          "2": "صممت مواد تعليمية جذابة لتبسيط المفاهيم المعقدة.",
+          "3": "ساعدت الطلاب على تحسين التفكير المنطقي ومهارات حل المشكلات."
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "المشاريع",
+    "headline": "نماذج من أعمالي في Angular",
+    "items": {
+      "adminDashboard": {
+       "title": "Roze App",
+       "description": "تطبيق ويب قابل للتوسع يتكون من واجهة مخصصة للعملاء ولوحة تحكم للإدارة. تركز واجهة المستخدم على تجربة استخدام سلسة وتصميم متجاوب، بينما توفر لوحة التحكم أدوات متقدمة لتحليل البيانات، فلترة ديناميكية، إدارة الصلاحيات حسب الأدوار، وإدارة شاملة للبيانات بكفاءة عالية."
+      },
+      "taskPlatform": {
+       "title": "Place Recommendation System",
+       "description": "نظام توصية ذكي للأماكن يعتمد على تحليل بيانات المستخدمين لتقديم اقتراحات مخصصة ودقيقة. يتضمن واجهة مستخدم تفاعلية تدعم البحث والفلترة وعرض النتائج بشكل ديناميكي، بالإضافة إلى لوحة تحكم لإدارة البيانات وتحسين خوارزميات التوصية، مع تكامل كامل مع RESTful APIs."
+      },
+      "travelBooking": {
+        "title": "E-commerce Platform",
+        "description": "منصة تجارة إلكترونية مع SSR لتحسين وقت التحميل الأولي وSEO، تتميز بمصادقة آمنة، واجهة مستخدم متجاوبة، ونظام عربة تسوق مُدار بالكامل."
+      }
+    },
+    "liveDemo": "عرض تجريبي",
+    "githubRepo": "مستودع GitHub"
+  },
+  "contact": {
+    "title": "تواصل",
+    "headline": "لنبدأ العمل معًا",
+    "connectTitle": "طرق التواصل",
+    "nameLabel": "الاسم",
+    "emailLabel": "البريد الإلكتروني",
+    "messageLabel": "الرسالة",
+    "sendMessage": "إرسال الرسالة",
+    "downloadCv": "تحميل السيرة الذاتية"
+  },
+  "footer": {
+    "connect": "تواصل معي"
+  }
+}

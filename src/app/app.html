@@ -1,0 +1,30 @@
+<div
+  class="app-shell min-h-screen text-slate-100"
+  [class.light-theme]="settings.theme() === 'light'"
+  [class.rtl]="settings.lang() === 'ar'"
+>
+  <app-cursor-glow />
+  <app-header />
+  <main class="mx-auto max-w-7xl px-4 pb-16 pt-24 sm:px-6 sm:pb-20 lg:px-10 lg:pb-24">
+    <div class="space-y-12 sm:space-y-14 lg:space-y-16">
+      <app-about />
+      <app-skills />
+      <app-experience />
+      <app-projects />
+      <app-contact />
+    </div>
+  </main>
+  <app-footer />
+  <button
+    id="back-to-top"
+    class="fixed bottom-4 right-4 bg-cyan-500 hover:bg-cyan-400 text-white p-3 rounded-full shadow-lg transition-all duration-300 z-50"
+    [class.opacity-0]="!showBackToTop"
+    [class.opacity-100]="showBackToTop"
+    [class.pointer-events-none]="!showBackToTop"
+    [class.pointer-events-auto]="showBackToTop"
+    (click)="scrollToTop()"
+    aria-label="Back to top"
+  >
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</div>
