@@ -134,7 +134,7 @@ export const PROJECTS: ProjectItem[] = [
     titleKey: 'projects.items.adminDashboard.title',
     descriptionKey: 'projects.items.adminDashboard.description',
     imageUrl:
-      './../../assets/images/flowerApp.png',
+      './assets/images/flowerApp.png',
     technologies: ['Angular', 'TypeScript', 'RxJS', 'Tailwind','Nx','ngx-translate','JWT','REST API','Signals'],
     liveUrl: 'https://rose-applications-c5rw.vercel.app/home',
     repoUrl: 'https://github.com/ahmedgamal-2050/angular-c4-team3'
@@ -143,7 +143,7 @@ export const PROJECTS: ProjectItem[] = [
     titleKey: 'projects.items.taskPlatform.title',
     descriptionKey: 'projects.items.taskPlatform.description',
     imageUrl:
-      './../../assets/images/Place_Recommendation.png',
+      './assets/images/Place_Recommendation.png',
     technologies: ['Angular', 'Boots', 'SCSS', 'Firebase','JWT','REST API'],
     liveUrl: 'https://example.com/task-platform',
     repoUrl: 'https://github.com/FaridaEmad/GraduationProject'
@@ -152,7 +152,7 @@ export const PROJECTS: ProjectItem[] = [
     titleKey: 'projects.items.travelBooking.title',
     descriptionKey: 'projects.items.travelBooking.description',
     imageUrl:
-      './../../assets/images/E-commerce.jpg',
+      './assets/images/E-commerce.jpg',
     technologies: ['Angular', 'REST API', 'Tailwind','JWT'],
     liveUrl: 'https://finalprojectecommerc.netlify.app/login',
     repoUrl: 'https://github.com/SaraAhmed34/E-Commerce-Route'
