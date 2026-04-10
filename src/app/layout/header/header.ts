@@ -10,7 +10,7 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class Header {
   constructor(public readonly settings: SiteSettingsService) {}
-
+  isMenuOpen = false;
   protected readonly links = [
     { id: 'home', labelKey: 'nav.home' },
     { id: 'about', labelKey: 'nav.about' },
@@ -19,4 +19,13 @@ export class Header {
     { id: 'projects', labelKey: 'nav.projects' },
     { id: 'contact', labelKey: 'nav.contact' }
   ];
+   
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  closeMenu() {
+    this.isMenuOpen = false;
+  }
 }
