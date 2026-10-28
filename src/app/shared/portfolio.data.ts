@@ -158,11 +158,11 @@ export const PROJECTS: ProjectItem[] = [
     repoUrl: 'https://github.com/SaraAhmed34/E-Commerce-Route'
   },
    {
-    titleKey: 'projects.items.travelBooking.title',
-    descriptionKey: 'projects.items.travelBooking.description',
+    titleKey: 'projects.items.fitnessApp.title',
+    descriptionKey: 'projects.items.fitnessApp.description',
     imageUrl:
-      './assets/images/E-commerce.jpg',
-    technologies: ['Angular', 'REST API', 'Tailwind','JWT'],
+      './assets/images/FitnessApp.png',
+    technologies: ['Angular', 'Boots', 'SCSS', 'Firebase','JWT','REST API'],
     liveUrl: 'https://ahmedgamal-2050.github.io/super-fitness/landing/class-details/69d982ed85f6bfa972bf2220/69d982ef85f6bfa972bf224e',
     repoUrl: 'https://github.com/SaraAhmed34/E-Commerce-Route'
   }

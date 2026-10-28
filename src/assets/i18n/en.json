@@ -140,6 +140,10 @@
       "travelBooking": {
         "title": "E-commerce Platform",
         "description": "e-commerce platform with SSR to improve initial load time and SEO, featuring secure authentication, a responsive UI, and a fully managed cart system."
+      },
+       "fitnessApp": {
+        "title": "Fitness App",
+        "description": "A comprehensive fitness application to help users achieve their health goals, with progress tracking and workout scheduling features."
       }
     },
     "liveDemo": "Live Demo",
