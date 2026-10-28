@@ -156,5 +156,14 @@ export const PROJECTS: ProjectItem[] = [
     technologies: ['Angular', 'REST API', 'Tailwind','JWT'],
     liveUrl: 'https://finalprojectecommerc.netlify.app/login',
     repoUrl: 'https://github.com/SaraAhmed34/E-Commerce-Route'
+  },
+   {
+    titleKey: 'projects.items.travelBooking.title',
+    descriptionKey: 'projects.items.travelBooking.description',
+    imageUrl:
+      './assets/images/E-commerce.jpg',
+    technologies: ['Angular', 'REST API', 'Tailwind','JWT'],
+    liveUrl: 'https://ahmedgamal-2050.github.io/super-fitness/landing/class-details/69d982ed85f6bfa972bf2220/69d982ef85f6bfa972bf224e',
+    repoUrl: 'https://github.com/SaraAhmed34/E-Commerce-Route'
   }
 ];
