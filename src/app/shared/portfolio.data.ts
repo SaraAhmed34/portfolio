@@ -134,10 +134,20 @@ export const PROJECTS: ProjectItem[] = [
     titleKey: 'projects.items.adminDashboard.title',
     descriptionKey: 'projects.items.adminDashboard.description',
     imageUrl:
-      './assets/images/flowerApp.png',
+      './assets/images/floewer.png',
     technologies: ['Angular', 'TypeScript', 'RxJS', 'Tailwind','Nx','ngx-translate','JWT','REST API','Signals'],
-    liveUrl: 'https://rose-applications-c5rw.vercel.app/home',
+    liveUrl: 'https://ahmedgamal-2050.github.io/angular-c4-team3/',
     repoUrl: 'https://github.com/ahmedgamal-2050/angular-c4-team3'
+  },
+  
+   {
+    titleKey: 'projects.items.fitnessApp.title',
+    descriptionKey: 'projects.items.fitnessApp.description',
+    imageUrl:
+      './assets/images/FitnessApp.png',
+    technologies: ['Angular', 'TypeScript', 'RxJS', 'Tailwind','Nx','ngx-translate','JWT','REST API','Signals'],
+    liveUrl: 'https://ahmedgamal-2050.github.io/super-fitness/landing/class-details/69d982ed85f6bfa972bf2220/69d982ef85f6bfa972bf224e',
+    repoUrl: 'https://github.com/ahmedgamal-2050/super-fitness'
   },
   {
     titleKey: 'projects.items.taskPlatform.title',
@@ -155,15 +165,6 @@ export const PROJECTS: ProjectItem[] = [
       './assets/images/E-commerce.jpg',
     technologies: ['Angular', 'REST API', 'Tailwind','JWT'],
     liveUrl: 'https://finalprojectecommerc.netlify.app/login',
-    repoUrl: 'https://github.com/SaraAhmed34/E-Commerce-Route'
-  },
-   {
-    titleKey: 'projects.items.fitnessApp.title',
-    descriptionKey: 'projects.items.fitnessApp.description',
-    imageUrl:
-      './assets/images/FitnessApp.png',
-    technologies: ['Angular', 'Boots', 'SCSS', 'Firebase','JWT','REST API'],
-    liveUrl: 'https://ahmedgamal-2050.github.io/super-fitness/landing/class-details/69d982ed85f6bfa972bf2220/69d982ef85f6bfa972bf224e',
     repoUrl: 'https://github.com/SaraAhmed34/E-Commerce-Route'
   }
 ];
